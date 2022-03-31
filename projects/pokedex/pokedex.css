@@ -1,0 +1,125 @@
+body{
+    background-color: red;
+    font-family: "Open Sans";
+}
+.grayBox{
+    width: 550px;
+    height: 600px;
+    position: absolute;
+    top: 250px;
+    left: 50px;
+    border-radius: 10%;
+    border-bottom-left-radius: 25% ;
+    background-color: rgb(180, 179, 179);
+}
+.pokeSprite{
+    background: radial-gradient(#0ec8e0, #2186d8);
+    margin: auto;
+    display: flex;
+    position: absolute;
+    background-color: aqua;
+    top: 300px;
+    left: 100px;
+    width: 450px;
+    height: 450px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10%;
+}
+.pokedexImg{
+    position: absolute;
+    top: 10px;
+    left: 600px;
+    text-align: center;
+}
+#pokeData{
+    color: #fff;
+    margin: 0 auto;
+    padding: 10px 25px;
+    position: absolute;
+    display: block;
+    background-color: rgba(20, 3, 3, 0.959);
+    height: 450px;
+    width: 600px;
+    top: 300px;
+    right: 600px;
+    border-radius: 10%;
+}
+.stats{
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    display: block;
+    flex-wrap: wrap;
+}
+.btn{
+    font-weight: 600;
+    height: 64px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    position: absolute;
+    top: 220px;
+    left: 1050px;
+    border: 3px solid rgb(65, 64, 64);
+}
+#pokeName{
+    margin: 0px auto;
+    padding: 0px 10px;
+    position: absolute;
+    top: 240px;
+    left: 700px;
+    width: 200px;
+    height: 40px;
+    border-radius: 10%;
+    background-color: black;
+    color: #fff;
+    border: 5px solid #f4f4f4;
+}
+.grayLine1{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(12, 11, 11);
+    width: 300px;
+    height: 10px;
+    border-radius: 40%;
+    display: block;
+    position: absolute;
+    top: 780px;
+    left: 230px;
+}
+.grayLine2{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(12, 11, 11);
+    width: 300px;
+    height: 10px;
+    border-radius: 40%;
+    display: block;
+    position: absolute;
+    top: 800px;
+    left: 230px;
+}
+.grayLine3{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(12, 11, 11);
+    width: 300px;
+    height: 10px;
+    border-radius: 40%;
+    display: block;
+    position: absolute;
+    top: 820px;
+    left: 230px;
+}
+.greenCircle{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(6, 163, 6);
+    border-radius: 50%;
+    border: 1px solid #000;
+    position: absolute;
+    top: 760px;
+    left: 120px;
+}

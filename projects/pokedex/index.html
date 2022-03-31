@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pokédex</title>
+        <link rel="stylesheet" href="pokedex.css">
+    </head>
+    <body>
+        <div class="grayBox"></div>
+        <div class="grayLine1"></div>
+        <div class="grayLine2"></div>
+        <div class="grayLine3"></div>
+        <div class="greenCircle"></div>
+        <section>
+            <img src="pokedex.png" alt="Pokedex" class="pokedexImg">
+            <div class="pokeSprite">
+                <img src="" alt="" id="pokeImg" width="250px"><br>
+            </div>
+            <input type="text" placeholder="Nombre del Pokémon" id="pokeName" name="pokeName"><br>
+            <button onclick="fetchPokemon()" class="btn">Buscar Pokémon</button><br>
+        </section>
+        <div id="pokeData">
+            <h2>Nombre</h2>
+            <h2 id="name"></h2>
+            <div>
+                <h2>Tipo</h2>
+                <h3 id="type"></h3>
+            </div>
+            <div class="movements">
+                <h2>Movimientos</h2>
+                <h3 id="move1"></h3>
+                <h3 id="move2"></h3>
+                <h3 id="move3"></h3>
+                <h3 id="move4"></h3>
+            </div>
+            <div class="stats">
+                <h2>Estadísticas</h2>
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>PS</th>
+                            <th>ATK</th>
+                            <th>DEF</th>
+                        </tr>
+                        <tr>
+                            <th id="ps"></th>
+                            <th id="atk"></th>
+                            <th id="def"></th>
+                        </tr>
+                    </tbody>
+                </table>
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>SP.ATK</th>
+                            <th>SP.DEF</th>
+                            <th>SPEED</th>
+                        </tr>
+                        <tr>
+                            <th id="spatk"></th>
+                            <th id="spdef"></th>
+                            <th id="spd"></th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+        </div>
+    </body>
+    <footer>
+        <script src="index.js"></script>
+    </footer>
+ </html>

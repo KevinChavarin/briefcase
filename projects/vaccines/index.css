@@ -1,0 +1,355 @@
+body{
+    font-family: Montserrat;
+}
+h1{
+    color: rgb(15, 76, 138);
+    font-size: 50px;
+}
+div.name{
+    color: rgb(15, 76, 138);
+    font-weight: bold;
+    font-size: 35px;
+    position: relative;
+    left: 150px;
+    top: -11px;
+}
+div.nav{
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    right: 300px;
+    top: 20px;
+    display: flex;
+    justify-content: space-around;
+    float: left;
+    font-size: 25px;
+    line-height: 20px;
+    word-spacing: 60px;
+}
+.nav{
+    font-weight: bold;
+    color: gray;
+}
+nav.navcolor{
+    margin: 0px 0px;
+    padding: 0px 0px;
+    display: flex;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(233,233,244,1) 48%, rgba(218,218,236,1) 50%, rgba(210,210,232,1) 100%, rgba(202,202,228,1) 100%);
+}
+.btnblue{
+    margin: 0px auto;
+    width: 100px;
+    height: 54px;
+    position: absolute;
+    align-items: center;
+    word-spacing: 1px;
+    right: 30px;
+    top: 25px;
+    display: block;
+    background-color: blue;
+    border-radius: 20%;
+    color: #ffff;
+    justify-content: center;
+    box-shadow: rgb(15, 76, 138);
+}
+
+.textOne{
+    color: gray;
+    font-weight: bold;
+    position: absolute;
+    top: 350px;
+    left: 50px;
+    font-size: 25px;
+}
+
+.bluesquare{
+    width: 700px;
+    height: 730px;
+    background-color: rgb(28, 173, 221);
+    position: absolute;
+    right: 1px;
+    top: 120px;
+}
+
+.titulo1{
+    position: absolute;
+    left: 90px;
+    font-size: 70px;
+}
+
+.icons1{
+    position: absolute;
+    color: blue;
+    font-weight: 600;
+    top: 480px;
+    left: 100px;
+    font-size: 20px;
+}
+.icons2{
+    position: absolute;
+    color: blue;
+    font-weight: 600;
+    top: 480px;
+    left: 380px;
+    font-size: 20px;
+}
+
+.icons3{
+    position: absolute;
+    color: blue;
+    font-weight: 900;
+    top: 680px;
+    left: 200px;
+    font-size: 25px;
+}
+
+.rectangle{
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    width: 800px;
+    height: 100px;
+    background-color: rgb(228, 227, 227);
+    transform: translate(-50 -50);
+    top: 750px;
+    left: 250px;
+    border-radius: 10%/40%;
+    font-size: 30px;
+    box-shadow: 100px;
+}
+
+.rectangle1{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 1px;
+    color: gray;
+    font-weight: 900;
+    word-spacing: 100px;
+    left: 100px;
+}
+
+.features{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 40px;
+    color: blue;
+    font-weight: 900;
+    word-spacing: 70px;
+    left: 100px;
+}
+
+.vaccines{
+    opacity: 0.1;
+    align-items: center;
+    position: inline-flex;
+    flex-wrap: wrap;
+}
+
+.astra{
+    width: 250px;
+    height: 80px;
+    position: absolute;
+    top: 900px;
+    left: 200px;
+}
+.sino{
+    width: 250px;
+    height: 40px;
+    position: absolute;
+    top: 940px;
+    left: 550px;
+}
+.pfizer{
+    width: 220px;
+    height: 60px;
+    position: absolute;
+    top: 920px;
+    left: 930px;
+}
+.mode{
+    width: 250px;
+    height: 80px;
+    position: absolute;
+    top: 930px;
+    left: 1250px;
+}
+.wh{
+    position: absolute;
+    top: 1100px;
+    color: rgb(15, 76, 138);
+    font-weight: 1000;
+    font-size: 50px;
+    left: 120px;
+}
+.text2{
+    position:absolute;
+    top: 1200px;
+    left: 120px;
+    color: gray;
+    font-weight: 800;
+    font-size: 20px;
+}
+.stcard{
+    margin: 10;
+    padding: 10;
+    border: 3px solid #000;
+    position: absolute;
+    top: 1300px;
+    border-radius: 15%;
+    border-color: gray;
+    left: 100px;
+    font-size: 25px;
+    color: gray;
+    font-weight: 600;
+}
+.title1{
+    position: flex;
+    font-size: 30px;
+    font-weight: 800;
+    color: rgb(12, 55, 99);
+}
+.ndcard{
+    margin: 0px auto;
+    padding: 0px 15px;
+    border: 3px solid #0000;
+    position: absolute;
+    top: 1300px;
+    left: 500px;
+    border-radius: 15%;
+    border-color: gray;
+    font-weight: 600;
+    font-size: 25px;
+    color: gray;
+}
+.title2{
+    position: flex;
+    font-size: 30px;
+    color: rgb(12, 55, 99);
+}
+.rdcard{
+    margin: 0px;
+    padding: 0px 15px;
+    border: 3px solid #000;
+    position: absolute;
+    top: 1300px;
+    left: 920px;
+    border-radius: 15%;
+    border-color: gray;
+    font-weight: 600;
+    font-size: 25px;
+    color: gray;
+}
+.title3{
+    position: flex;
+    font-size: 30px;
+    color: rgb(12, 55, 99);
+}
+.thcard{
+    margin: 0px;
+    padding: 0px 15px;
+    border: 3px solid #000;
+    position: absolute;
+    top: 1300px;
+    left: 1330px;
+    border-radius: 15%;
+    border-color: gray;
+    font-weight: 600;
+    font-size: 25px;
+    color: gray;
+}
+.title4{
+    position: flex;
+    font-size: 30px;
+    color: rgb(12, 55, 99);
+}
+.text3{
+    position: absolute;
+    top: 1800px;
+    right: 200px;
+    font-weight: 600;
+    font-size: 25px;
+    color: gray;
+}
+.bluetitle1{
+    color: rgb(12, 55, 99);
+    font-weight: 900;
+}
+.bluesquare2{
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 2200px;
+    left: 0px;
+    width: 700px;
+    height: 550px;
+    background-color: rgb(28, 173, 221);
+}
+.nurse2{
+    position: absolute;
+    top: -150px;
+    width: 700px;
+    height: 700px;
+}
+.alc{
+    margin: 0;
+    padding: 0px 150px;
+    position: absolute;
+    top: 2200px;
+    right: 500px;
+    font-weight: 100;
+    font-size: 20px;
+    color: rgb(12, 55, 99);
+   border: 1px solid gray;
+   align-items: flex-start;
+   transform: translate(-50 -50);
+}
+.stress{
+    margin: 0;
+    padding: 0px 78px;
+    position: absolute;
+    top: 2300px;
+    right: 500px;
+    font-weight: 100;
+    font-size: 20px;
+    color: rgb(12, 55, 99);
+   border: 1px solid gray;
+   align-items: flex-start;
+}
+.sleep{
+    margin: 0;
+    padding: 0px 200px;
+    position: absolute;
+    top: 2500px;
+    right: 500px;
+    font-weight: 100;
+    font-size: 20px;
+    color: rgb(12, 55, 99);
+   border: 1px solid gray;
+   align-items: flex-start;
+}
+.exercise{
+    margin: 0;
+    padding: 0px 154px;
+    position: absolute;
+    top: 2600px;
+    right: 500px;
+    font-weight: 700;
+    font-size: 20px;
+    color: rgb(12, 55, 99);
+   border: 1px solid gray;
+}
+.food{
+    margin: 0;
+    padding: 0px 207px;
+    position: absolute;
+    top: 2650px;
+    right: 500px;
+    font-weight: 100;
+    font-size: 20px;
+    color: rgb(12, 55, 99);
+   border: 1px solid gray;
+   align-items: flex-start;
+}
